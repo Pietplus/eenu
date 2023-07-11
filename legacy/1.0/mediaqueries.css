@@ -1,0 +1,23 @@
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 600px) {
+    /* Adjust styles for screens with a maximum width of 600px and smaller (mobile devices) */
+    .column {
+      flex-basis: 100%; /* Set flex-basis to 100% for full width on mobile */
+    }
+  }
+  
+  
+  @media screen and (min-width: 600px) {
+    /* Adjust styles for screens with a minimum width of 600px and larger */
+    .column {
+      flex-basis: 50%; /* Set flex-basis to 50% for 2 columns on larger screens */
+    }
+  }
+  
+  @media screen and (min-width: 900px) {
+    /* Adjust styles for screens with a minimum width of 900px and larger */
+    .column {
+      flex-basis: 33.33%; /* Set flex-basis to 33.33% for 3 columns on larger screens */
+    }
+  }
