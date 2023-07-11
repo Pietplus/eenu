@@ -5,6 +5,12 @@
     font-size: 1.5rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
+
+  body{
+    cursor: cell;
+  }
+
+
   
   .header {
     font-size: 8rem;
